@@ -22,7 +22,7 @@ function getRealIpAddr()
 $addressip = getRealIpAddr();
 ?>
 <html><head>
-<title>Address IP: <?php echo $addressip; ?></title>
+<title>IP Address: <?php echo $addressip; ?></title>
 <style type="text/css">
 div { font-family:"Segoe UI","Lucida Grande","Calibri","Tahoma","Sans"; }
 div.ip { font-size:250%; }
