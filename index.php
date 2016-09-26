@@ -1,3 +1,5 @@
+phIP
+
 <?php
 
 function getRealIpAddr()
