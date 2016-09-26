@@ -30,6 +30,8 @@ div.desc { font-size:200%; }
 <body>
 <p><div>Your IP address is:</div>
 <div><?php echo $addressip;?></div>
-</p>   
+</p>
+Created by <a href="https://github.com/MrCodeInc/">MrCodeInc.</a>
+You can view the source code <a href="https://github.com/MrCodeInc/phIP/">here.</a>
 </body>
 </html>
