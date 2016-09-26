@@ -2,11 +2,11 @@
 
 function getRealIpAddr()
 {
-    if (!empty($_SERVER['HTTP_CLIENT_IP']))   //check ip from share internet
+    if (!empty($_SERVER['HTTP_CLIENT_IP']))
     {
       $ip=$_SERVER['HTTP_CLIENT_IP'];
     }
-    elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR']))   //to check ip is pass from proxy
+    elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR']))
     {
       $ip=$_SERVER['HTTP_X_FORWARDED_FOR'];
     }
@@ -17,10 +17,10 @@ function getRealIpAddr()
     return $ip;
 }
  
-$adresseip = getRealIpAddr();
+$addressip = getRealIpAddr();
 ?>
 <html><head>
-<title>Address IP: <?php echo $adresseip; ?></title>
+<title>Address IP: <?php echo $addressip; ?></title>
 <style type="text/css">
 div { font-family:"Segoe UI","Lucida Grande","Calibri","Tahoma","Sans"; }
 div.ip { font-size:250%; }
@@ -29,7 +29,7 @@ div.desc { font-size:200%; }
 </head>
 <body>
 <p><div>Your IP address is:</div>
-<div><?php echo $adresseip;?></div>
+<div><?php echo $addressip;?></div>
 </p>   
 </body>
 </html>
