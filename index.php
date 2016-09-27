@@ -1,5 +1,6 @@
 phIP
 A simple way to view your IP address coded in PHP.
+
 <?php
 
 function getRealIpAddr()
