@@ -1,4 +1,5 @@
 phIP
+</p> </p>
 A simple way to view your IP address coded in PHP.
 
 <?php
